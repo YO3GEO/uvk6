@@ -700,8 +700,8 @@ const char *state_list[] = {"", "BUSY", "BAT LOW", "TX DISABLE", "TIMEOUT", "ALA
 		char               str[22];
 
 		#ifdef ENABLE_SHOW_FREQ_IN_CHAN
-			const uint8_t freq_in_channel = p_vfo->freq_in_channel;
-			//const uint8_t freq_in_channel = SETTINGS_find_channel(frequency);  // was way to slow
+			//const uint8_t freq_in_channel = p_vfo->freq_in_channel;
+			const uint8_t freq_in_channel = SETTINGS_find_channel(frequency);  // was way to slow
 		#endif
 
 		#ifdef ENABLE_ALARM
