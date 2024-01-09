@@ -44,19 +44,19 @@ ENABLE_MDC1200_SIDE_BEEP         := 1
 #
 ENABLE_PWRON_PASSWORD            := 0
 ENABLE_RESET_AES_KEY             := 0
-ENABLE_BIG_FREQ                  := 1
+ENABLE_BIG_FREQ                  := 0
 #
 # DTMF_CALLING 2.8 kB
 ENABLE_DTMF_CALLING              := 0
-ENABLE_DTMF_LIVE_DECODER         := 1
+ENABLE_DTMF_LIVE_DECODER         := 0
 ENABLE_DTMF_TIMING_SETTINGS      := 0
 ENABLE_DTMF_CALL_FLASH_LIGHT     := 0
 # Kill and Revive 400 B
 ENABLE_DTMF_KILL_REVIVE          := 0
 #
-ENABLE_SHOW_FREQ_IN_CHAN         := 1
+ENABLE_SHOW_FREQ_IN_CHAN         := 0
 # small bold 580 B
-ENABLE_SMALL_BOLD                := 0
+ENABLE_SMALL_BOLD                := 1
 # smallest font 2 kB
 #ENABLE_SMALLEST_FONT            := 0
 # trim trailing 44 B
